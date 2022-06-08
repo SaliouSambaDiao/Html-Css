@@ -1,0 +1,37 @@
+section{
+    display: flex;
+    justify-content: center;
+}
+
+.photos{
+    width: 200px;
+    height: 200px;
+    min-width: 200px;
+    margin: 4em 0.5px;
+    position: relative
+}
+
+.photos::after{
+    content: "";
+    width: inherit;
+    height: inherit;
+    background: inherit;
+    position: absolute;
+    bottom: -100.5%;
+    transform: rotateX(180deg);
+
+}
+
+.photos:before{
+    content: "";
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgb(211, 198, 198) 90%);
+    position: absolute;
+    bottom: -100.5%;
+    z-index: 20;
+}
+
+.photos:hover{
+    transform: scale(1.1);
+}

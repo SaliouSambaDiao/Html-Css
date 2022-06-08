@@ -1,0 +1,275 @@
+body {
+  background-color: rgb(224, 224, 224);
+}
+img {
+  width: 20em;
+  height: 14.5em;
+  border-top-left-radius: 0.75em;
+  border-top-right-radius: 0.75em;
+  position: relative;
+  left: 1em;
+  top: 1em;
+  font-size: 100%;
+}
+p {
+  position: relative;
+  left: 1em;
+  right: 1em;
+}
+/*navbar*/
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 10em;
+  height: 50px;
+  background: #e6e6e644;
+  padding: 20px;
+}
+
+nav ul li {
+  list-style: none;
+  position: relative;
+  width: 81em;
+  top: 8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+nav ul li:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 5px;
+  right: 0;
+  bottom: 5px;
+  width: 100%;
+  height: 0;
+  z-index: 1;
+  border-radius: 2px;
+  transition: 0.7s;
+}
+
+nav ul li:hover:before {
+  background: #2413c2;
+}
+
+nav ul li:hover a {
+  color: #3918ca;
+}
+
+nav ul li {
+  text-decoration: none;
+  color: black;
+  z-index: 11;
+  text-transform: uppercase;
+  font-size: 12px;
+  transition: 0.5s;
+}
+
+a {
+  margin: 50px;
+  color: black;
+}
+
+/*Page conteneur*/
+.conteneur {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.A {
+  width: 81em;
+  height: 45em;
+  background-color: rgb(224, 224, 224);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.B {
+  width: 81em;
+  height: 80em;
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 0.75em;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.C {
+  width: 81em;
+  height: 60em;
+  border: 2px solid white;
+  background-image: url(../Image/hero-sgg.jpg);
+
+  background-attachment: fixed;
+}
+.D {
+  width: 81em;
+  height: 40em;
+  border: 2px solid white;
+  background-color: yellow;
+}
+
+/*Page 1*/
+.AA {
+  width: 81em;
+  height: 11.75em;
+  background-color: white;
+}
+.AB {
+  width: 81em;
+  height: 32.25em;
+  background-color: rgb(224, 224, 224);
+  position: relative;
+  top: 1.4em;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.ABA {
+  width: 46.9em;
+  height: 28em;
+  border-radius: 1.75%;
+  position: relative;
+  left: 4.8em;
+  background-image: url("../Image/PR_IND_2022.jpg");
+  background-position: 10%;
+  background-position-y: 240%;
+  background-position-x: 50%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.ABB {
+  width: 27.5em;
+  height: 28em;
+  border-radius: 4%;
+  position: relative;
+
+  background-color: rgb(224, 224, 224);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.ABBA {
+  width: 22.5em;
+  height: 8.5em;
+  border-radius: 0.75em;
+  background-color: white;
+}
+.ABBB {
+  width: 22.5em;
+  height: 8.5em;
+  border-radius: 0.75em;
+  background-color: white;
+}
+.ABBC {
+  width: 22.5em;
+  height: 8.5em;
+  border-radius: 0.75em;
+  background-color: white;
+}
+.ABAA {
+  width: 46.9em;
+  height: 8em;
+  position: relative;
+  top: 20.55em;
+  background-color: white;
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+}
+
+/*Page 2*/
+
+.BA {
+  width: 81em;
+  height: 40em;
+  background-color: white;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.BB {
+  width: 81em;
+  height: 40em;
+  background-color: white;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.BAA {
+  width: 22em;
+  height: 28em;
+  background-color: white;
+  position: relative;
+  top: 10.5em;
+  left: 5.5em;
+  border: 0.009px solid rgb(204, 219, 215);
+  border-radius: 0.75em;
+}
+.BAB {
+  width: 22.5em;
+  height: 28em;
+  background-color: white;
+  border-radius: 0.75em;
+  border: 0.009px solid rgb(204, 219, 215);
+  position: relative;
+  top: 10.5em;
+  right: 0.2em;
+}
+.BAC {
+  width: 22.5em;
+  height: 28em;
+  background-color: white;
+  border-radius: 0.75em;
+  border: 0.009px solid rgb(204, 219, 215);
+  position: relative;
+  top: 10.5em;
+  right: 5.75em;
+}
+.BBA {
+  width: 22em;
+  height: 28em;
+  background-color: white;
+  position: relative;
+  /*bottom: 10.5em;*/
+  left: 5.5em;
+  border: 0.009px solid rgb(204, 219, 215);
+  border-radius: 0.75em;
+}
+.BBB {
+  width: 22.5em;
+  height: 28em;
+  background-color: white;
+  border-radius: 0.75em;
+  border: 0.009px solid rgb(204, 219, 215);
+  position: relative;
+  /*bottom: 10.5em;*/
+  right: 0.2em;
+}
+.BBC {
+  width: 22.5em;
+  height: 28em;
+  background-color: white;
+  border-radius: 0.75em;
+  border: 0.009px solid rgb(204, 219, 215);
+  position: relative;
+  /*bottom: 10.5em;*/
+  right: 5.75em;
+}

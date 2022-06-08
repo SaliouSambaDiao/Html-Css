@@ -1,0 +1,61 @@
+body {
+  background-color: white;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.contenu {
+  width: 40em;
+  height: 40em;
+  border: 2px solid black;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /*justify-content: space-between; */
+}
+.secondcontenu {
+  width: 19.87em;
+  height: 40em;
+  border: 1px solid white;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.contenutrois {
+  width: 20em;
+  height: 20em;
+  border: 1px solid white;
+}
+#first {
+  background-color: aqua;
+}
+#second {
+  background-color: brown;
+}
+#third {
+  background-color: red;
+  color: white;
+  overflow: scroll;
+}
+#fourth {
+  background-color: blue;
+}
+#fiveth {
+  background-color: green;
+}
+#sixeth {
+  background-color: yellow;
+}
+#seveth {
+  background-color: red;
+}
+#eithth {
+  background-color: yellow;
+  overflow: scroll;
+}

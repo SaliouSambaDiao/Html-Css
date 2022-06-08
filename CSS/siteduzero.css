@@ -1,0 +1,210 @@
+body {
+  width: 61%;
+  margin: auto;
+  text-align: justify;
+  border: 1px solid black;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#container {
+  background-color: rgba(245, 222, 179, 0.3);
+}
+/* premier partie,c'est okay*/
+#premiere {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+#zozor {
+  font-family: cursive;
+  font-size: xx-large;
+  margin-top: 0px;
+  font-weight: bolder;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li a {
+  padding: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover {
+  padding: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: red;
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+}
+/* Deuxieme partie,c'est okay */
+#deuxieme {
+  border-top: 2px solid rgb(240, 102, 11);
+  background-color: rgba(245, 222, 179, 0.3);
+}
+
+#sanfrancisco {
+  border-radius: 3px;
+  width: 100%;
+  height: 150px;
+  margin-top: 10px;
+}
+
+#vacance {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 7px;
+  color: white;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  margin-top: -48px;
+  margin-bottom: 50px;
+  position: relative;
+  z-index: 1;
+}
+
+#voirarticle {
+  width: fit-content;
+  background-color: red;
+  padding: 5px;
+  border-radius: 4px;
+}
+/* troisieme partie,c'est okay */
+#troisieme {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(173, 50, 33);
+  background-color: rgba(245, 222, 179, 0.3);
+}
+
+#texte {
+  margin-right: 20px;
+}
+
+#voyageur {
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+#presentation {
+  background-color: gray;
+  border-radius: 3px;
+  height: fit-content;
+  width: 1800px;
+  color: white;
+}
+
+#presentation > p {
+  padding: 10px;
+}
+
+#presentation > img {
+  margin-left: 60px;
+}
+
+.paragraphe {
+  font-size: small;
+  padding: 10px;
+}
+
+#images img {
+  padding: 8px;
+}
+/* quatrieme partie,c'est okay*/
+#quatrieme {
+  display: flex;
+  justify-content: space-between;
+}
+
+#derniertweet {
+  margin-right: 30px;
+}
+
+#mesphotos img {
+  width: 65px;
+  height: 65px;
+  padding: 5px;
+}
+
+#mesphotos {
+  width: 300px;
+}
+
+#MESAMIS {
+  display: flex;
+  justify-content: space-between;
+}
+#mesamis {
+  margin-right: 10px;
+}
+
+#mesamis > p {
+  margin-left: 30px;
+}
+
+.moins {
+  font-size: small;
+}
+
+#mesamis .moins,
+#suitedemesamis .moins {
+  font-size: small;
+  color: red;
+}
+
+#quatrieme ul li {
+  list-style: square;
+}
+/* reponsive */
+@media screen and (max-width: 800px) {
+  nav ul {
+    display: block;
+  }
+
+  nav ul li a {
+    padding-top: 20px;
+  }
+
+  #vacance {
+    display: block;
+  }
+
+  #voirarticle {
+    width: fit-content;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #presentation > img {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #MESAMIS {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    width: 90%;
+    margin: auto;
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: justify;
+  }
+}

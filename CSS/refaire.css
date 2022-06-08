@@ -1,0 +1,162 @@
+body {
+  width: 50%;
+  margin: auto;
+  font-family: "Courier New", Courier, monospace;
+  text-align: justify;
+}
+
+#tout {
+  margin: 40px;
+  border: 1px solid #000000;
+  padding: 5px;
+}
+
+#tete {
+  display: flex;
+  justify-content: space-between;
+}
+
+.html-css-js {
+  color: blue;
+  background-color: rgba(0, 0, 255, 0.1);
+  text-decoration: none;
+}
+
+.html-css-js:hover {
+  color: blue;
+  background-color: rgba(0, 0, 255, 0.1);
+  font-size: larger;
+}
+
+#langage-html {
+  color: violet;
+  background-color: rgba(238, 130, 238, 0.2);
+  width: fit-content;
+  border: 1px solid violet;
+  margin: auto;
+  font-size: xx-large;
+  margin-top: 80px;
+}
+
+#langage-css {
+  color: blue;
+  background-color: rgba(0, 0, 255, 0.1);
+  width: fit-content;
+  border: 1px solid blue;
+  font-size: xx-large;
+}
+
+#langage-js {
+  color: yellow;
+  background-color: rgba(255, 255, 0, 0.2);
+  width: fit-content;
+  border: 1px solid yellow;
+  font-size: xx-large;
+}
+
+#css-js {
+  display: flex;
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+
+#milieu {
+  display: flex;
+}
+
+em{
+    text-decoration: underline;
+    color: gray;
+}
+
+.session {
+  border: 1px solid violet;
+  color: violet;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 4px;
+  background-color: rgba(238, 130, 238, 0.2);
+}
+
+.session a {
+  text-decoration: none;
+}
+
+.session:hover {
+  color: white;
+  background-color: violet;
+}
+
+tr td {
+  border: 1px solid black;
+  font-size: small;
+  padding: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+  margin: auto;
+}
+
+.ligne {
+  color: blue;
+  background-color: rgba(0, 0, 255, 0.1);
+}
+
+.colonne {
+  color: violet;
+  background-color: rgba(238, 130, 238, 0.2);
+}
+
+.sessionbas {
+  font-size: x-large;
+}
+
+.top {
+  color: blue;
+}
+
+@media screen and (max-width: 1050px){
+    body {
+        width: 90%;
+        margin: auto;
+    
+    }
+    
+}
+@media screen and (max-width:585px){
+    body {
+        width: 90%;
+        margin: auto;
+    
+    }
+
+    #css-js {
+        display: block;
+        margin-left: 30px;
+        margin-bottom: 50px;
+      }
+    table tr td{
+        padding: 0px
+        
+    }
+    table{
+
+    height: 100px;
+
+    }
+}
+
+@media screen and (max-width:500px){
+    
+    table{
+        width: 200px;
+        height: 100px;
+
+    }
+    table tr td{
+        padding: 0px;
+        font-size: xx-small;
+    }
+}

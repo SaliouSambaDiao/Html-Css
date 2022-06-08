@@ -1,0 +1,11 @@
+.para1 {
+  font-size: 100px;
+  font-style: italic;
+  font-weight: bolder;
+  line-height: 150px;
+}
+.para2 {
+  font-size: 2.3em;
+  font-style: oblique;
+  font-weight: lighter;
+}

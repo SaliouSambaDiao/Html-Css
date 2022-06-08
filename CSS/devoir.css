@@ -1,0 +1,149 @@
+body {
+  width: 50%;
+  margin: auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#container {
+  border: 1px solid black;
+  margin: 20px 0;
+  padding: 10px;
+}
+
+#first {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.html_css_js {
+  color: rgb(0, 190, 248);
+  background-color: rgba(0, 190, 248, 0.05);
+  text-decoration: none;
+}
+
+.html_css_js:hover {
+  color: rgb(0, 190, 248);
+  background-color: rgba(0, 190, 248, 0.05);
+  font-size: 20px;
+}
+
+#html {
+  width: fit-content;
+  text-align: center;
+  color: rgb(228, 56, 176);
+  background-color: rgba(228, 56, 176, 0.1);
+  border: 1px solid rgb(228, 56, 176);
+  font-size: xx-large;
+  margin: auto;
+}
+
+#css_js {
+  display: flex;
+  padding-left: 8%;
+  margin-bottom: 80px;
+}
+
+#css {
+  text-align: center;
+  color: rgb(0, 190, 248);
+  background-color: rgba(0, 190, 248, 0.1);
+  border: 1px solid rgb(0, 190, 248);
+  font-size: xx-large;
+  padding: 5px 0;
+}
+
+#js {
+  text-align: center;
+  color: rgb(148, 102, 17);
+  background-color: rgba(221, 152, 24, 0.3);
+  border: 1px solid rgb(221, 152, 24);
+  font-size: xx-large;
+  padding: 5px 0;
+}
+
+#second {
+  display: flex;
+  justify-content: space-between;
+}
+
+.session {
+  border-radius: 5px;
+  background-color: rgba(228, 56, 176, 0.1);
+  border: 1px solid rgb(228, 56, 176);
+  margin-bottom: 8px;
+  text-align: center;
+  padding: 5px;
+}
+
+.session a {
+  text-decoration: none;
+  color: rgb(0, 119, 255);
+}
+
+.session:hover,
+.session:hover a {
+  background-color: rgb(228, 56, 176);
+  color: white;
+}
+
+em {
+  text-decoration: underline;
+  color: gray;
+}
+
+.tligne {
+  color: rgb(0, 190, 248);
+  background-color: rgba(0, 190, 248, 0.1);
+}
+
+.tcolonne {
+  color: rgb(228, 56, 176);
+  background-color: rgba(228, 56, 176, 0.1);
+}
+
+tr,
+td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+  font-size: small;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.top {
+  color: rgb(0, 190, 248);
+}
+
+span {
+  font-size: x-large;
+}
+
+#session1,
+#session2,
+#session3 {
+  font-size: x-large;
+}
+#session1 + p,
+#session2 + p,
+#session3 + p {
+  text-align: justify;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    width: 95%;
+  }
+  #css_js {
+    display: block;
+  }
+  #css,
+  #js {
+    width: fit-content;
+    margin: auto;
+  }
+}
